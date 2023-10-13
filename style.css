@@ -1,0 +1,27 @@
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.navbar{
+    color: white;
+    background-color: blue;
+}
+
+.data-block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: calc(23.33% - 20px);
+    box-sizing: border-box;
+    background: cyan;
+    border-bottom: inset;
+}
+
+.data-block h2 {
+    margin: 0;
+}
+
+.data-block p {
+    margin: 10px 0;
+}
